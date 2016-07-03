@@ -19,7 +19,7 @@ expect(nThTriangleNumber(7)).toBe(28);
 expect(() => nThTriangleNumber(-1)).toThrow("Argument must be larger or equal to zero.");
 
 
-
+//good for finding divisors
 function getNumberOfDivisors(value) {
     if(value<=0) {
         throw new Error("Number must be bigger than zero.")
